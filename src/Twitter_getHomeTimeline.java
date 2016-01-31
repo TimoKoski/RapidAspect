@@ -22,7 +22,10 @@ public class Twitter_getHomeTimeline {
 		        System.out.println(status.getUser().getName() + ":" +
 		                           status.getText());
 		    
-		    timelineWhole += status.getText() + "\n";
+		    timelineWhole += 
+		    		status.getCreatedAt() + "|" +
+		    		status.getId() + "|" + 
+		    		status.getText() + "|" + "\n";
 		    }
 		    
 		    FileWriter fw = new FileWriter();
