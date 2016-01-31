@@ -7,7 +7,6 @@ import twitter4j.TwitterFactory;
 public class Twitter_updateStatus {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		String latestStatus = "Tweet! #amazing";
 		
@@ -19,10 +18,8 @@ public class Twitter_updateStatus {
 		} catch (TwitterException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			//status = twitter.showStatus(1);
 		}
 	    //System.out.println("Successfully updated the status to [" + status.getText() + "].");
-		
 		
 	}
 
