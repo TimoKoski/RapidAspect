@@ -1,9 +1,15 @@
-import twitter4j.*;
+import twitter4j.Status;
+import twitter4j.Twitter;
+import twitter4j.TwitterException;
+import twitter4j.TwitterFactory;
 
-public class Test2 {
+
+public class Twitter_updateStatus {
+
 	public static void main(String[] args) {
-		
-		String latestStatus = "second tweet!";
+		// TODO Auto-generated method stub
+
+		String latestStatus = "Tweet! #amazing";
 		
 		Twitter twitter = TwitterFactory.getSingleton();
 	    Status status;
@@ -17,6 +23,7 @@ public class Test2 {
 		}
 	    //System.out.println("Successfully updated the status to [" + status.getText() + "].");
 		
+		
 	}
-	
+
 }
